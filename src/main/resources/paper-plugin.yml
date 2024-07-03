@@ -1,0 +1,12 @@
+name: LevelledMobsAndAuraSkillsBridge
+version: '${version}'
+main: ink.bluecloud.LevelledMobsAndAuraSkillsBridge
+api-version: '1.20'
+dependencies:
+  server:
+    AuraSkills:
+      load: AFTER
+      required: true
+    LevelledMobs:
+      load: AFTER
+      required: true
